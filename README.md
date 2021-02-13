@@ -1,1 +1,1 @@
-# FencySlider-AS-6
+# Live Site: https://thisisrid.github.io/FencySlider-AS-6/
