@@ -26,8 +26,10 @@ const showImages = (images) => {
     <div class="bg-dark">
     <h6 class="text-white pl-1">Views: ${image.views}</h6>
     <h6 class="text-white pl-1">Downloads: ${image.downloads}</h6>
-    <small class="bg-danger rounded-2 text-white p-1 mx-1">Likes: ${image.likes}</small>
-    <small class="bg-danger rounded-2 text-white p-1">Commets: ${image.comments}</small>
+    <div class="text-center p-2" >
+    <small class="bg-danger rounded-2 text-white p-1 mx-1"><i class="bi bi-hand-thumbs-up"></i> ${image.likes}</small>
+    <small class="bg-danger rounded-2 text-white p-1"><i class="bi bi-chat-square-text"></i> ${image.comments}</small>
+    </div>
     </div>`;
     gallery.appendChild(div);
   });
